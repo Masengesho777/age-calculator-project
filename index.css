@@ -1,0 +1,64 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: Arial;
+    font-size: 16px;
+    margin: 0;
+    background: #0276ac;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+
+.Age-calc{
+    width: 600px;
+    padding: 15px;
+    border-radius: 15px;
+    text-align: center;
+    background-color: #fff;
+  color: #000;
+  font-weight: 700;
+}
+
+
+.Age-calc label{
+display: block;
+margin-bottom: 5px;
+}
+
+.Age-calc input{
+    width: 300px;
+    padding: 10px;
+    border-radius: 8px;
+    margin-bottom: 15px;
+border: 2px solid #120546;
+  font-size: 18px;
+}
+.Age-calc button{
+    width: 200px;
+    padding: 10px;
+    border: 0;
+    margin: 5px;
+border: 0;
+  font-size: 20px;
+  color: #fff;
+  border-radius: 8px;
+  background-color:  #120546;
+  cursor: pointer;
+}
+#disblock{
+    background-color:  #120546;
+    color: #fff;
+    padding: 10px;
+    font-size: 22px;
+    border-radius: 8px;
+    max-width: 500px;
+    margin: 0 auto 15px;
+
+
+}
